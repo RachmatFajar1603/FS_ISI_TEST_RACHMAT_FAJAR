@@ -118,7 +118,7 @@ export default function Home() {
 
   return (
     <div className="max-w-xl mx-auto mt-10 p-4">
-      <div className="flex justify-end items-end mb-4">
+      <div className="flex justify-center items-center mb-4">
         {error && (
           <div className="mb-4 p-2 bg-red-100 text-red-700 rounded">
             {error}
